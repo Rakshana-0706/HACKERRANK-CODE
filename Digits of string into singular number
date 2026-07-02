@@ -1,0 +1,22 @@
+import java.util.*;
+public class Main{
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        String str = sc.next();
+        String str1 = "";
+        String str2 = "0";
+        int n = str.length();
+        for(int i =0;i<n;i++){
+           char ch = str.charAt(i);
+           if(Character.isDigit(ch)){
+             str1 = str1 + ch;
+           } 
+          
+           
+        }
+        if((str1.length () )== 0){
+            System.out.print(str2);
+        }
+        System.out.print(str1);
+    }
+}
